@@ -11,6 +11,7 @@ public class Driver : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(0, 1, 0);
+        transform.Rotate(0, 0, 0.1f);
+        transform.Translate(0, 0.01f, 0);
     }
 }
